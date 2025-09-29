@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+header, main, footer{
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-image: url("./images/Houston.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+h1{
+    background-color: #1D3557;
+    padding: .2em .3em;
+    border-radius: .5rem;
+}
+
+h3{
+    background-color: #457B9D;
+    padding: .6em 1em;
+    border-radius: .5rem;
+}
+
+main{
+    background-color: #F1FAEE;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+.activities{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+footer{
+
+}
+
+.guide{
+    display: flex;
+    justify-content: space-around;
+    background-color: #A8DADC;
+    padding: 1em;
+    width: 40%;
+}
+
+.guide-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.guide-img{
+    width: 20%;
+}
